@@ -1,0 +1,23 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+}
+
+h1, .score {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0 2rem;
+    color: #f1f1f1;
+}
+
+canvas {
+    background: #505050;
+    display: block;
+    margin: 0 auto;
+    cursor: none;
+}
